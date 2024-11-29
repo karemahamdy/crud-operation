@@ -23,7 +23,6 @@ export const PostManagement: React.FC = () => {
   };
 
   const handleEdit = (post: Post) => {
-  
     setEditingPost(post);
     setIsModalVisible(true);
   };
